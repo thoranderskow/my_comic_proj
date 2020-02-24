@@ -1,0 +1,22 @@
+html{
+  background-color: #6dab72;
+}
+h1{
+  text-align: center;
+  margin-bottom: 10vh;
+  margin-top: 5vh;
+}
+.container{
+		width: 48%;
+    background-color: white;
+    border-radius: 25px;
+    margin: 0 auto;
+	}
+.panel{
+    outline: 3px solid #6dab72;
+		height: 15vw;
+		width: 50%;
+		float: left;
+    background-color: white;
+    border-radius: 25px;
+	}
