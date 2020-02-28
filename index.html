@@ -5,20 +5,21 @@
     <meta charset="UTF-8">
     <title>My class project</title>
   </head>
-  <body>
+  <body id="body">
     <div class="header">
     <h1>My comic project(working title)</h1>
     </div>
-    <div class="container">
-    		<div id="panel1" class="panel" onclick="panel1_handler()">
-    		</div>
-    		<div id="panel2" class="panel" onclick="panel2_handler()">
-    		</div>
-    		<div id="panel3" class="panel" onclick="panel3_handler()">
-    		</div>
-    		<div id="panel4" class="panel" onclick="panel4_handler()">
-    		</div>
+    <div id ="scr" class="container">
+      <img id="img" style="display: none">
+    	<div id="panel1" class="panel" onclick="panel1_handler()">
     	</div>
-      <script type="text/javascript" src="scripts/script.js"></script>
+  		<div id="panel2" class="panel" onclick="panel2_handler()">
+  		</div>
+  		<div id="panel3" class="panel" onclick="panel3_handler()">
+  		</div>
+  		<div id="panel4" class="panel" onclick="panel4_handler()">
+	  	</div>
+   </div>
+   <script type="text/javascript" src="scripts/script.js"></script>
   </body>
 </html>
