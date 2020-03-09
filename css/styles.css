@@ -1,10 +1,21 @@
 html{
   background-color: #6dab72;
 }
+
 h1{
   text-align: center;
   margin-bottom: 10vh;
   margin-top: 5vh;
+}
+h1:hover{
+  color: yellow;
+}
+h2{
+  margin-top: 0;
+  text-align: center;
+}
+h2:hover{
+  color: yellow;
 }
 .container{
 		width: 48vw;
@@ -21,3 +32,9 @@ h1{
     border-radius: 25px;
     text-align: center;
 	}
+.header{
+  background-image: url('../images/zebra.png');
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 25px;
+}
